@@ -1,4 +1,4 @@
-const mongoose = require ('mongoose');
+const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
 
@@ -10,7 +10,7 @@ const orderSchema = new Schema({
   products: [
     {
       type: Schema.Types.ObjectId,
-      ref: 'Products'
+      ref: 'Product'
     }
   ]
 });

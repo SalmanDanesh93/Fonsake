@@ -18,7 +18,7 @@ db.once('open', async () => {
     {
       name: 'Fonzake',
       description: 'The best around',
-      image: '            ADD PHOTO PATH    ',
+      image: 'squash-blossom.jpg',
       category: categories[0]._id,
       price: 20.0,
       quantity: 1000
@@ -26,39 +26,39 @@ db.once('open', async () => {
     {
       name: 'Cherry Fonzake',
       description: 'The best around',
-      image: '            ADD PHOTO PATH    ',
-      category: categories[0]._id,
+      image: 'squash-blossom.jpg',
+      category: categories[2]._id,
       price: 20.0,
       quantity: 1000
     },
     {
-      name: 'Cherry Fonzake',
+      name: 'Cherry Fonzake44',
       description: 'The best around',
-      image: '            ADD PHOTO PATH    ',
-      category: categories[0]._id,
+      image: 'squash-blossom.jpg',
+      category: categories[1]._id,
       price: 20.0,
       quantity: 1000
     },
     {
-      name: 'Cherry Fonzake',
+      name: 'Cherry Fonzake11',
       description: 'The best around',
-      image: '            ADD PHOTO PATH    ',
-      category: categories[0]._id,
+      image: 'squash-blossom.jpg',
+      category: categories[2]._id,
       price: 20.0,
       quantity: 1000
     },
     {
-      name: 'Cherry Fonzake',
+      name: 'Cherry Fonzake1',
       description: 'The best around',
-      image: '            ADD PHOTO PATH    ',
-      category: categories[0]._id,
+      image: 'squash-blossom.jpg',
+      category: categories[1]._id,
       price: 20.0,
       quantity: 1000
     },
     {
-      name: 'Cherry Fonzake',
+      name: 'Cherry Fonzake2',
       description: 'The best around',
-      image: '            ADD PHOTO PATH    ',
+      image: 'squash-blossom.jpg',
       category: categories[0]._id,
       price: 20.0,
       quantity: 1000
@@ -71,8 +71,8 @@ db.once('open', async () => {
 
   await User.create({
     firstName: 'Sal',
-    lastName: 'Funnyton',
-    email: 'sfunnyton@gmail.com',
+    lastName: 'Funton',
+    email: 'sfunton@gmail.com',
     password: 'password12345',
     orders: [
       {
@@ -82,8 +82,8 @@ db.once('open', async () => {
   });
 
   await User.create({
-    firstName: 'Bobby',
-    lastName: 'Donny',
+    firstName: 'Bobbyyy',
+    lastName: 'Donnyyy',
     email: 'bdonny@testmail.com',
     password: 'password12345'
   });
