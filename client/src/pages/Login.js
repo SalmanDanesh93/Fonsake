@@ -33,7 +33,7 @@ function Login(props) {
     <div className="container user1">
       <Link to="/signup">Take me to Fonzake Signup</Link>
 
-      <h2>NutriLogin</h2>
+      <h2>Fonzake Login</h2>
       <form onSubmit={handleFormSubmit}>
         <div className="flex-row space-between user2">
           <label htmlFor="email">Email address:</label>

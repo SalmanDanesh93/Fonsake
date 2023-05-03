@@ -90,12 +90,12 @@ function Detail() {
 
           <p>
             <strong>Price:</strong>${currentProduct.price}{' '}
-            <button onClick={addToCart}>Toss it in the NutriCart</button>
+            <button onClick={addToCart}>Toss it in the Fonzake Cart</button>
             <button
               disabled={!cart.find((p) => p._id === currentProduct._id)}
               onClick={removeFromCart}
             >
-              Take it out of the NutriCart
+              Take it out of the Fonzake
             </button>
           </p>
 

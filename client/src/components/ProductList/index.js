@@ -47,7 +47,7 @@ function ProductList() {
 
   return (
     <div className="user2">
-      <h2>NutriRite Products:</h2>
+      <h2>Fonzake Products:</h2>
       {state.products.length ? (
         <div className="flex-row">
           {filterProducts().map((product) => (

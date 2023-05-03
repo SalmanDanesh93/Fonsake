@@ -29,7 +29,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   color: var(--dark);
-  background:linear-gradient(90deg, rgb(217, 255, 210) 35%, rgb(201, 204, 206) 49%, rgb(195, 211, 163) 100%)
+  background:linear-gradient(90deg, rgb(134, 183, 247) 35%, rgb(128, 174, 205) 49%, rgb(115, 234, 109) 100%)
 }
 
 h1,
@@ -84,7 +84,7 @@ a:hover {
 }
 
 header {
-  background: linear-gradient(190deg, rgb(31, 100, 135) 35%, rgb(62, 123, 62) 45%, rgb(6, 181, 18) 100%)
+  background: linear-gradient(190deg, rgb(83, 171, 214) 35%, rgb(124, 207, 124) 45%, rgb(194, 206, 21) 100%)
 }
 
 header a {
@@ -144,7 +144,7 @@ input:focus {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background-color:rgb(168, 215, 57),
+  background-color:rgb(5, 127, 60),
 
 }
 
