@@ -54,14 +54,6 @@ db.once('open', async () => {
       category: categories[1]._id,
       price: 20.0,
       quantity: 1000
-    },
-    {
-      name: 'Cherry Fonzake2',
-      description: 'The best around',
-      image: 'squash-blossom.jpg',
-      category: categories[0]._id,
-      price: 20.0,
-      quantity: 1000
     }
   ]);
   
@@ -82,10 +74,10 @@ db.once('open', async () => {
   });
 
   await User.create({
-    firstName: 'Bobbyyy',
-    lastName: 'Donnyyy',
-    email: 'bdonny@testmail.com',
-    password: 'password12345'
+    firstName: 'Allison',
+    lastName: 'Romero',
+    email: 'AlliR@gmail.com',
+    password: 'password123456'
   });
 
   console.log('user seeded');
